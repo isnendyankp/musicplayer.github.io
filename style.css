@@ -19,7 +19,7 @@ body {
 
 .player-container {
   height: 500px;
-  width: 400px;
+  width: 380px;
   background: #e7e7e7;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
@@ -29,8 +29,8 @@ body {
   width: 300px;
   height: 300px;
   position: relative;
-  top: -10px;
-  left: 50px;
+  top: 0px;
+  left: 38px;
 }
 
 .img-container img {
