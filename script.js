@@ -106,7 +106,10 @@ function updateProgressBar(e) {
             durationSeconds = `0${durationSeconds}`;
         }
         console.log('seconds', durationSeconds);
-        durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
+        // Delay switching duration Element to avoid NaN
+        if (durationSeconds) {
+            durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
+        }
     }
 }
 
