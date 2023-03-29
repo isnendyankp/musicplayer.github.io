@@ -106,6 +106,7 @@ function updateProgressBar(e) {
             durationSeconds = `0${durationSeconds}`;
         }
         console.log('seconds', durationSeconds);
+        durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
     }
 }
 
