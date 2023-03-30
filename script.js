@@ -127,6 +127,7 @@ function setProgressBar(e) {
     const { duration } = music;
     console.log(clickX / width);
     console.log((clickX / width) * duration);
+    music.currentTime = (clickX / width) * duration;
 }
 
 // Event Listeners
